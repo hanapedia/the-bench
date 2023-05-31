@@ -3,7 +3,7 @@ module github.com/hanapedia/the-bench/tbctl
 go 1.20
 
 require (
-	github.com/hanapedia/the-bench/the-bench-operator v0.0.2
+	github.com/hanapedia/the-bench/the-bench-operator v0.0.3
 	github.com/spf13/cobra v1.7.0
 )
 
@@ -37,5 +37,3 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-
-replace github.com/hanapedia/the-bench/the-bench-operator => ../the-bench-operator
